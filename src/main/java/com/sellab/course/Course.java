@@ -10,7 +10,7 @@ import com.sellab.topic.Topic;
 
 @Entity
 public class Course {
-	
+	//This annotation is used to define table primary key
 	@Id
 	private String id;
 	private String name;
